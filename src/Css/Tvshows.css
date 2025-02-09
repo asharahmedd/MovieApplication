@@ -1,0 +1,32 @@
+.Tvshow-links {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .Tvshow-links button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .Tvshow-links button:hover {
+    background-color: maroon;
+    transform: scale(1.05);
+  }
+  
+  .Tvshow-links button:focus {
+    outline: none;
+  }
+  
+  .Tvshow-links .active button {
+    background-color: #28a745;
+    color: white;
+  }
+  
